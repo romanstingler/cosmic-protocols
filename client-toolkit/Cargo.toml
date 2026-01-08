@@ -4,7 +4,7 @@ version = "0.2.0"
 edition = "2024"
 
 [dependencies]
-cosmic-protocols = { path = "../" }
+cosmic-protocols = { version = "0.2.0", path = "../" }
 sctk = { package = "smithay-client-toolkit", version = "0.20.0" }
 wayland-client = { version = "0.31.11" }
 libc = "0.2.175"
